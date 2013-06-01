@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jobcatch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="desc">An app to enable job seekers to express interest or uninterest in job postings, helping recruiters hone their search for candidates.</string>
+
+</resources>
