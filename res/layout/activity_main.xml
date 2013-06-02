@@ -8,25 +8,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    
     <ImageButton
         android:id="@+id/ImageButton_dislike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF"
         android:contentDescription="@string/desc"
+        android:onClick="dislike"
+        android:paddingLeft="50dp"
         android:src="@drawable/dislike" />
 
     <ImageButton
         android:id="@+id/ImageButton_like"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/ImageButton_dislike"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF"
         android:contentDescription="@string/desc"
+        android:onClick="like"
+        android:paddingRight="50dp"
         android:src="@drawable/like" />
 
 </RelativeLayout>
