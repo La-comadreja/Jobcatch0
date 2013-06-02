@@ -8,10 +8,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+    <WebView
+        android:id="@+id/indeed_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </WebView>
+
     <ImageButton
         android:id="@+id/ImageButton_dislike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/indeed_job"
         android:layout_alignParentLeft="true"
         android:background="#FFFFFF"
         android:contentDescription="@string/desc"
@@ -23,6 +30,7 @@
         android:id="@+id/ImageButton_like"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/indeed_job"
         android:layout_alignParentRight="true"
         android:background="#FFFFFF"
         android:contentDescription="@string/desc"
